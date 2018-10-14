@@ -4928,13 +4928,13 @@ for (let i = 0; i < pics_length; i++) {
                     $('.cover-yun-2').addClass('cover-yun-2-ani');
                     $('.cover-yun-3').addClass('cover-yun-3-ani');
                     $('.cover-yun-4').addClass('cover-yun-4-ani');
-                },0) //8000
+                },8000) //8000
                 setTimeout(function () {
                     // $('.choose').show();
                     // $('.cover').hide()
                     $('.item-wrap ul').css({'transform':'translateY(' + ( - $(window).height()) + 'px)'})
-                },0)//9500
-            },0)//100
+                },9500)//9500
+            },1000)//100
         }
     }
 }
