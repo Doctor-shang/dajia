@@ -5102,7 +5102,6 @@ $('.answer .answer-box .result-opitions').on('click','.opt',function (){ //ç‚¹å‡
             if (qNum != (qAll+1)) {
                 randerQue();
             }else{
-                debugger
                 if (type != 'renwu') {
                     if (rightNum > 1) {
                         $('.result-flag').css({
