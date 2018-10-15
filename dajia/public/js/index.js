@@ -5102,6 +5102,7 @@ $('.answer .answer-box .result-opitions').on('click','.opt',function (){ //ç‚¹å‡
             if (qNum != (qAll+1)) {
                 randerQue();
             }else{
+                debugger
                 if (type != 'renwu') {
                     if (rightNum > 1) {
                         $('.result-flag').css({
@@ -5135,17 +5136,15 @@ $('.answer .answer-box .result-opitions').on('click','.opt',function (){ //ç‚¹å‡
                         remain()
                     }
                 } else {
-                    if(rightNum>8){
-                        $('.result-renwu-box span').text(rightNum);
-                        $('.result-renwu-box .result-flag').text(levelArr[sex][parseInt((rightNum-1)/2)]);
-                        $('.result-renwu-box').velocity('fadeIn',{
-                            delay:400
-                        })
-                        level = parseInt((rightNum-1)/2);
-                        renderchenghao();
-                        changePlayer();
-                        renwuRemain()
-                    }
+                    $('.result-renwu-box span').text(rightNum);
+                    $('.result-renwu-box .result-flag').text(levelArr[sex][parseInt((rightNum-1)/2)]);
+                    $('.result-renwu-box').velocity('fadeIn',{
+                        delay:400
+                    })
+                    level = parseInt((rightNum-1)/2);
+                    renderchenghao();
+                    changePlayer();
+                    renwuRemain()
                 }
             }
             lock = true;
@@ -5161,7 +5160,6 @@ $('.page').on('click',function(){
     var $li = $t.closest('li');
     var index = $li.index();
     var $ul = $li.closest('ul');
-    debugger
     $ul.css({'transform':'translateY(' + ( - $(window).height()) * (index + 1) + 'px)'})
 })
 $('.close').on('click',function(){
