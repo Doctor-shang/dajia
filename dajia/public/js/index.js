@@ -4908,7 +4908,7 @@ $(function () { //加载页面云动画
     )
 })
 var index = 0;
-var pics = ['../img/answer_allopen_bg.png','../img/answer_bg.png','../img/answer_xing.png','../img/answer_correct.png','../img/answer_failed_bg.png','../img/answer_rui.png','../img/answer_success_bg.png','../img/answer_wen.png','../img/answer_wrong.png','../img/answer_zhi.png','../img/answer_zhong.png','../img/choose_bg.png','../img/choose_boy.png','../img/choose_girl.png','../img/cover_bg.png','../img/cover_clou1.png','../img/cover_clou2.png','../img/cover_clou3.png','../img/cover_clou4.png','../img/cover_text.png','../img/leaf1.png','../img/leaf2.png','../img/leaf3.png','../img/loading_bg.png','../img/loading_cloud.png','../img/mainscene_bg.png','../img/mainscene_rui.png','../img/mainscene_rui_bi.png','../img/mainscene_table.png','../img/mainscene_tips1.png','../img/mainscene_tips2.png','../img/mainscene_tips3.png','../img/mainscene_tips4.png','../img/mainscene_upgrade.png','../img/mainscene_wen.png','../img/mainscene_wen_zhi.png','../img/mainscene_xing.png','../img/mainscene_xing_cat.png','../img/mainscene_zhi.png','../img/mainscene_zhi_hua.png','../img/mainscene_zhong.png','../img/mainscene_zhong_bian.png','../img/me_bottom.png','../img/me_close.png','../img/memorial_1.png','../img/memorial_2.png','../img/memorial_3.png','../img/memorial_4.png','../img/memorial_bg.png','../img/memorial_up_btn.png','../img/ms_chakanzouzhang.png','../img/ms_guifei.png','../img/ms_huangdi.png','../img/ms_nvwang.png','../img/ms_taijian.png','../img/ms_xianling.png','../img/ms_xiaojie.png','../img/ms_xiaozhu.png','../img/ms_yatou.png','../img/ms_yayi.png','../img/ms_zaixiang.png','../img/pop_renwu_bg.png','../img/share.jpg','../img/share.png','../img/share_btn.png','../img/upgrade_btn.png']
+var pics = ['../public/img/answer_allopen_bg.png','../public/img/answer_bg.png','../public/img/answer_xing.png','../public/img/answer_correct.png','../public/img/answer_failed_bg.png','../public/img/answer_rui.png','../public/img/answer_success_bg.png','../public/img/answer_wen.png','../public/img/answer_wrong.png','../public/img/answer_zhi.png','../public/img/answer_zhong.png','../public/img/choose_bg.png','../public/img/choose_boy.png','../public/img/choose_girl.png','../public/img/cover_bg.png','../public/img/cover_clou1.png','../public/img/cover_clou2.png','../public/img/cover_clou3.png','../public/img/cover_clou4.png','../public/img/cover_text.png','../public/img/leaf1.png','../public/img/leaf2.png','../public/img/leaf3.png','../public/img/loading_bg.png','../public/img/loading_cloud.png','../public/img/mainscene_bg.png','../public/img/mainscene_rui.png','../public/img/mainscene_rui_bi.png','../public/img/mainscene_table.png','../public/img/mainscene_tips1.png','../public/img/mainscene_tips2.png','../public/img/mainscene_tips3.png','../public/img/mainscene_tips4.png','../public/img/mainscene_upgrade.png','../public/img/mainscene_wen.png','../public/img/mainscene_wen_zhi.png','../public/img/mainscene_xing.png','../public/img/mainscene_xing_cat.png','../public/img/mainscene_zhi.png','../public/img/mainscene_zhi_hua.png','../public/img/mainscene_zhong.png','../public/img/mainscene_zhong_bian.png','../public/img/me_bottom.png','../public/img/me_close.png','../public/img/memorial_1.png','../public/img/memorial_2.png','../public/img/memorial_3.png','../public/img/memorial_4.png','../public/img/memorial_bg.png','../public/img/memorial_up_btn.png','../public/img/ms_chakanzouzhang.png','../public/img/ms_guifei.png','../public/img/ms_huangdi.png','../public/img/ms_nvwang.png','../public/img/ms_taijian.png','../public/img/ms_xianling.png','../public/img/ms_xiaojie.png','../public/img/ms_xiaozhu.png','../public/img/ms_yatou.png','../public/img/ms_yayi.png','../public/img/ms_zaixiang.png','../public/img/pop_renwu_bg.png','../public/img/share.jpg','../public/img/share.png','../public/img/share_btn.png','../public/img/upgrade_btn.png']
 var pics_length = pics.length;
 for (let i = 0; i < pics_length; i++) {
     var img = new Image();
@@ -4977,7 +4977,7 @@ var getDaoju=[];
 
 function renderPlayer(){ //渲染人物事件
     $('.item-wrap ul .main .person').css({
-        'background':'url(../img/ms_' + levelArr[sex+2][level] + '.png)no-repeat 0 0/cover',
+        'background':'url(../public/img/ms_' + levelArr[sex+2][level] + '.png)no-repeat 0 0/cover',
         'opacity':'1'
     })
     setTimeout(function(){
@@ -5105,7 +5105,7 @@ $('.answer .answer-box .result-opitions').on('click','.opt',function (){ //点�
                 if (type != 'renwu') {
                     if (rightNum > 1) {
                         $('.result-flag').css({
-                            'backgroundImage':'url(../img/answer_'+name+'.png)'
+                            'backgroundImage':'url(../public/img/answer_'+name+'.png)'
                         })
                         $('.result-right span').text(daojuObj[type])
                         $('.answer .result-right').velocity('fadeIn',{ //出现
