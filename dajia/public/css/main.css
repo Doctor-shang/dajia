@@ -34,7 +34,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .loading .loading-text-wrap{
     width: 100%;
     height: 70.625vw;
-    background: url(../img/loading_bg.png?v=6c4921c12e) no-repeat 0 0/cover;
+    background: url(../img/loading_bg.png) no-repeat 0 0/cover;
     position: absolute;
     left: 0;
     top: 40.156vw;
@@ -58,7 +58,7 @@ table { border-spacing:0; border-collapse:collapse;}
     width: 100%;
 }
 .loading .cloud{
-    background: url(../img/loading_cloud.png?v=8839c92b88) no-repeat 0px 0px / cover;
+    background: url(../img/loading_cloud.png) no-repeat 0px 0px / cover;
     width: 309.375vw;
     height: 75vw;
     position: absolute;
@@ -110,7 +110,7 @@ table { border-spacing:0; border-collapse:collapse;}
 }
 /* ----------------------------------公共结束 cover开始 */
 .item-wrap ul .cover{
-    background: url(../img/cover_bg.png?v=190145f4bc) no-repeat center /cover;
+    background: url(../img/cover_bg.png) no-repeat center /cover;
 }
 .item-wrap ul .cover .cover-text{
     width: 55.625vw;
@@ -120,7 +120,7 @@ table { border-spacing:0; border-collapse:collapse;}
     top: 20%;
 }
 .item-wrap ul .cover .cover-text-animation{
-    background: url(../img/cover_text.png?v=ff7e0810bc) no-repeat 0 0 /cover;
+    background: url(../img/cover_text.png) no-repeat 0 0 /cover;
     animation: covertext 8s linear both;
 }
 @keyframes covertext{
@@ -136,7 +136,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     left: -98.438vw;
     bottom: -3.125vw;
-    background: url(../img/cover_clou1.png?v=0f8cb1e483) no-repeat 0 0/cover;
+    background: url(../img/cover_clou1.png) no-repeat 0 0/cover;
     transition: all 1.5s ease
 }
 .item-wrap ul .cover .cover-yun-1-ani{
@@ -148,7 +148,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     left: -51.094vw;
     top: 0px;
-    background: url(../img/cover_clou2.png?v=15d92b05df) no-repeat 0 0/cover;
+    background: url(../img/cover_clou2.png) no-repeat 0 0/cover;
     transition: all 1.5s ease
 }
 .item-wrap ul .cover .cover-yun-2-ani{
@@ -160,7 +160,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     right: -72.5vw;
     bottom: 0px;
-    background: url(../img/cover_clou3.png?v=6c53320f0a) no-repeat 0 0/cover;
+    background: url(../img/cover_clou3.png) no-repeat 0 0/cover;
     transition: all 1.5s ease
 }
 .item-wrap ul .cover .cover-yun-3-ani{
@@ -172,7 +172,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     left: -100vw;
     top: 0px;
-    background: url(../img/cover_clou4.png?v=9652ce53b7) no-repeat 0 0/cover;
+    background: url(../img/cover_clou4.png) no-repeat 0 0/cover;
     transition: all 1.5s ease
 }
 .item-wrap ul .cover .cover-yun-4-ani{
@@ -180,7 +180,7 @@ table { border-spacing:0; border-collapse:collapse;}
 }
 /* -----------------------------------cover结束 choose开始 */
 .item-wrap ul .choose{
-    background: url(../img/choose_bg.png?v=c0b0f4f5bf) no-repeat 0 0/cover;
+    background: url(../img/choose_bg.png) no-repeat 0 0/cover;
 }
 .item-wrap ul .choose .choose-text{
     width: 89.375vw;
@@ -204,7 +204,7 @@ table { border-spacing:0; border-collapse:collapse;}
     top: 0;
     width: 22.5vw;
     height: 46.406vw;
-    background: url(../img/choose_boy.png?v=7391412ff4) no-repeat 0 0/cover;
+    background: url(../img/choose_boy.png) no-repeat 0 0/cover;
 }
 .item-wrap ul .choose .btn .btn-girl{
     position: absolute;
@@ -212,11 +212,11 @@ table { border-spacing:0; border-collapse:collapse;}
     top: 0;
     width: 22.5vw;
     height: 46.406vw;
-    background: url(../img/choose_girl.png?v=456049a5c3) no-repeat 0 0/cover;   
+    background: url(../img/choose_girl.png) no-repeat 0 0/cover;   
 }
 /* ---------------------------------------choose结束 main开始 */
 .item-wrap ul .main{
-    background: url(../img/mainscene_bg.png?v=0275158b09)no-repeat 0 100% /cover;
+    background: url(../img/mainscene_bg.png)no-repeat 0 100% /cover;
 }
 .item-wrap ul .main .floor{
     width: 100vw;
@@ -229,7 +229,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     top: 6.25vw;
     right:5.625vw;
-    background: url(../img/share_btn.png?v=d6e77e02e3)no-repeat 0 0 /cover;
+    background: url(../img/share_btn.png)no-repeat 0 0 /cover;
     width: 7.656vw;
     height: 21.25vw;
 }
@@ -239,7 +239,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     bottom: 40.781vw;
     left: 32.188vw;
-    background: url(../img/ms_taijian.png?v=8597bc9ca2) no-repeat 0 0/cover;
+    background: url(../img/ms_taijian.png) no-repeat 0 0/cover;
     animation: personanimation 1s steps(2,end) infinite;
 }
 @keyframes personanimation{
@@ -248,7 +248,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .main .leaf1{
     width: 7.344vw;
     height: 7.969vw;
-    background: url(../img/leaf1.png?v=56a6dcabec)no-repeat 0 0/cover;
+    background: url(../img/leaf1.png)no-repeat 0 0/cover;
     opacity: 0;
     position: absolute;
     top: 46.875vw;
@@ -259,7 +259,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .main .leaf2{
     width: 19.375vw;
     height: 11.406vw;
-    background: url(../img/leaf2.png?v=ee8828e450)no-repeat 0 0/cover;
+    background: url(../img/leaf2.png)no-repeat 0 0/cover;
     opacity: 0;
     position: absolute;
     top: 67.188vw;
@@ -270,7 +270,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .main .leaf3{
     width: 9.219vw;
     height: 12.031vw;
-    background: url(../img/leaf3.png?v=8e88cc3c82)no-repeat 0 0/cover;
+    background: url(../img/leaf3.png)no-repeat 0 0/cover;
     opacity: 0;
     position: absolute;
     top: 62.5vw;
@@ -299,7 +299,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .main .desk{
     width: 94.219vw;
     height: 35.625vw;
-    background: url(../img/mainscene_table.png?v=02b814ee42)no-repeat 0 0/cover;
+    background: url(../img/mainscene_table.png)no-repeat 0 0/cover;
 
     position: absolute;
     right: 5.469vw;
@@ -326,35 +326,35 @@ table { border-spacing:0; border-collapse:collapse;}
     height: 22.031vw;
     position: absolute;
     left: 0.781vw;
-    background: url(../img/mainscene_zhong.png?v=86eae17a7a)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_zhong.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .btns .btn:nth-child(2){
     width: 14.063vw;
     height: 22.031vw;
     position: absolute;
     left: 14.844vw;
-    background: url(../img/mainscene_zhi.png?v=b2b4560ad7)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_zhi.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .btns .btn:nth-child(3){
     width: 14.063vw;
     height: 22.031vw;
     position: absolute;
     left: 28.906vw;
-    background: url(../img/mainscene_wen.png?v=aecd3cb309)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_wen.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .btns .btn:nth-child(4){
     width: 14.063vw;
     height: 22.031vw;
     position: absolute;
     left: 42.969vw;
-    background: url(../img/mainscene_xing.png?v=5792bdda90)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_xing.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .btns .btn:nth-child(5){
     width: 14.063vw;
     height: 22.031vw;
     position: absolute;
     left: 57.031vw;
-    background: url(../img/mainscene_rui.png?v=4e22f918f3)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_rui.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .upperson{
     width: 28.75vw;
@@ -362,13 +362,13 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     right: 0.781vw;
     bottom: 1.563vw;
-    background: url(../img/mainscene_upgrade.png?v=db67813b38)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_upgrade.png)no-repeat 0 0 /cover;
 }
 .item-wrap ul .main .bi{
     position: absolute;
     width: 6.719vw;
     height: 14.844vw;
-    background: url(../img/mainscene_rui_bi.png?v=392e7b8d70)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_rui_bi.png)no-repeat 0 0 /cover;
     right: 78.125vw;
     bottom: 74.219vw;
     opacity: 0;
@@ -378,7 +378,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     width: 63.281vw;
     height: 15vw;
-    background: url(../img/mainscene_zhong_bian.png?v=52aa4be0ce)no-repeat 0 0 /contain;
+    background: url(../img/mainscene_zhong_bian.png)no-repeat 0 0 /contain;
     left: 18.281vw;
     top: 26.563vw;
     opacity: 0;
@@ -391,7 +391,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     width: 25.156vw;
     height: 26.563vw;
-    background: url(../img/mainscene_xing_cat.png?v=463003f1b4)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_xing_cat.png)no-repeat 0 0 /cover;
     animation: cat 1s steps(2,end) infinite;
     left: 14.063vw;
     bottom: 31.25vw;
@@ -402,7 +402,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     width: 88.594vw;
     height: 72.5vw;
-    background: url(../img/mainscene_zhi_hua.png?v=cb35d4a2e6)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_zhi_hua.png)no-repeat 0 0 /cover;
     left: 6.25vw;
     bottom: 55.469vw;
     opacity: 0;
@@ -412,7 +412,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     width: 40.469vw;
     height: 4.688vw;
-    background: url(../img/mainscene_wen_zhi.png?v=aee067ef36)no-repeat 0 0 /cover;
+    background: url(../img/mainscene_wen_zhi.png)no-repeat 0 0 /cover;
     right: 31.25vw;
     bottom: 72.656vw;
     opacity: 0;
@@ -421,7 +421,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .main .zouzhang{
     width: 46.875vw;
     height: 12.656vw;
-    background: url(../img/ms_chakanzouzhang.png?v=4c2445b726)no-repeat 0 0 /cover;
+    background: url(../img/ms_chakanzouzhang.png)no-repeat 0 0 /cover;
     box-sizing: border-box;
     position: absolute;
     right: 28.906vw;
@@ -439,7 +439,7 @@ table { border-spacing:0; border-collapse:collapse;}
     top: 39.063vw;
     width: 88.438vw;
     height: 89.219vw;
-    background: url(../img/answer_allopen_bg.png?v=2909b4d43d)no-repeat 0 0 /cover;
+    background: url(../img/answer_allopen_bg.png)no-repeat 0 0 /cover;
 }
 /* ------------------------------------------main结束 answer开始 */
 .item-wrap ul .answer{
@@ -448,7 +448,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .answer-box{
     width: 100%;
     height: 100%;
-    background: url(../img/answer_bg.png?v=daa66670e1)no-repeat 0 0/cover;
+    background: url(../img/answer_bg.png)no-repeat 0 0/cover;
 }
 .item-wrap ul .answer .answer-box .title{
     font-size: 4.688vw;
@@ -482,7 +482,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .answer-box .result-opitions .opt .ans-right{
     width: 12.188vw;
     height: 10.938vw;
-    background: url(../img/answer_correct.png?v=511864af19)no-repeat 0 0 /cover;
+    background: url(../img/answer_correct.png)no-repeat 0 0 /cover;
     position: absolute;
     right: 1.563vw;
     top:3.125vw
@@ -490,7 +490,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .answer-box .result-opitions .opt .ans-wrong{
     width: 12.188vw;
     height: 10.938vw;
-    background: url(../img/answer_wrong.png?v=7fe9164255)no-repeat 0 0 /cover;
+    background: url(../img/answer_wrong.png)no-repeat 0 0 /cover;
     position: absolute;
     right: 1.563vw;
     top:3.125vw
@@ -519,7 +519,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .result-right .result-wp{
     width: 88.75vw;
     height: 88.75vw;
-    background: url(../img/answer_success_bg.png?v=25dac38e85) no-repeat 0 0/cover;
+    background: url(../img/answer_success_bg.png) no-repeat 0 0/cover;
     position: absolute;
     left: 4.844vw;
     top: 45vw;
@@ -527,7 +527,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .result-wrong .result-wp{
     width: 88.75vw;
     height: 88.75vw;
-    background: url(../img/answer_failed_bg.png?v=0e9c1289ae) no-repeat 0 0/cover;
+    background: url(../img/answer_failed_bg.png) no-repeat 0 0/cover;
     position: absolute;
     left: 4.844vw;
     top: 45vw;
@@ -542,7 +542,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .result-box .result-wp .result-flag{
     width: 62.969vw;
     height: 52.031vw;
-    background: url(../img/answer_zhong.png?v=2e19a4d0fb) no-repeat 50% 50%/contain;
+    background: url(../img/answer_zhong.png) no-repeat 50% 50%/contain;
     margin: 0 auto;    
 }
 .item-wrap ul .answer .result-box .result-wp .result-text{
@@ -555,7 +555,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .result-renwu-box{
     width: 100%;
     height: 100%;
-    background: url(../img/pop_renwu_bg.png?v=c39ed58f75) no-repeat center/cover;
+    background: url(../img/pop_renwu_bg.png) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -580,7 +580,7 @@ table { border-spacing:0; border-collapse:collapse;}
 .item-wrap ul .answer .result-renwu-box .result-flag{
     width: 38.281vw;
     height: 15.156vw;
-    background: url(../img/upgrade_btn.png?v=0d3b547f5f) no-repeat 0 0/cover;
+    background: url(../img/upgrade_btn.png) no-repeat 0 0/cover;
     position: absolute;
     top: 84.219vw;
     left: 30.312vw;
@@ -599,28 +599,28 @@ table { border-spacing:0; border-collapse:collapse;}
     width: 10.469vw;
     height: 6.094vw;
     position: absolute;
-    background: url(../img/memorial_up_btn.png?v=a57cb5c395) no-repeat 0 0/contain;
+    background: url(../img/memorial_up_btn.png) no-repeat 0 0/contain;
     transform: rotate(180deg);
     left: 44.688vw;
     bottom: 15.625vw;
 }
 .memorial1{
-    background: url(../img/memorial_1.png?v=6f5d1fc4e6) no-repeat 0 0/contain;
+    background: url(../img/memorial_1.png) no-repeat 0 0/contain;
 }
 .memorial2{
-    background: url(../img/memorial_2.png?v=4beaaa4482) no-repeat 0 0/contain;
+    background: url(../img/memorial_2.png) no-repeat 0 0/contain;
 }
 .memorial3{
-    background: url(../img/memorial_3.png?v=af860e4a6a) no-repeat 0 0/contain;
+    background: url(../img/memorial_3.png) no-repeat 0 0/contain;
 }
 .memorial4{
-    background: url(../img/memorial_4.png?v=08300b2fee) no-repeat 0 0/contain;
+    background: url(../img/memorial_4.png) no-repeat 0 0/contain;
 }
 .memorial .close{
     position: absolute;
     width: 13.594vw;
     height: 13.594vw;
-    background: url(../img/me_close.png?v=eb72b8403c) no-repeat 0 0/cover;
+    background: url(../img/me_close.png) no-repeat 0 0/cover;
     right: 3.125vw;
     top: 3.125vw;
 }
@@ -628,7 +628,7 @@ table { border-spacing:0; border-collapse:collapse;}
     position: absolute;
     width: 100vw;
     height: 10.469vw;
-    background: url(../img/me_bottom.png?v=c6e3ebd8b0) no-repeat 0 0/cover;
+    background: url(../img/me_bottom.png) no-repeat 0 0/cover;
     left: 0px;
     bottom: 0px;
 }
